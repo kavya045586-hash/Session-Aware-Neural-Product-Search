@@ -3,7 +3,7 @@ import torch.nn as nn
 import pandas as pd
 import pickle
 from torch.utils.data import DataLoader, TensorDataset
-from step3_model import SequentialTwoTower
+from model_arch import SequentialTwoTower
 import os
 
 # 1. Configuration - Adjusted for CPU stability
