@@ -3,7 +3,7 @@ import torch
 import faiss
 import pickle
 import numpy as np
-from step3_model import SequentialTwoTower # Your architecture
+from model_arch import SequentialTwoTower # Your architecture
 
 app = Flask(__name__)
 

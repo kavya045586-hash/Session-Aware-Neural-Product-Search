@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 from torch.utils.data import DataLoader, TensorDataset
 from tqdm import tqdm
-from step3_model import SequentialTwoTower # Your architecture
+from model_arch import SequentialTwoTower # Your architecture
 
 # --- 1. Metric Calculation Functions ---
 def get_metrics(top_indices, targets, k=10):

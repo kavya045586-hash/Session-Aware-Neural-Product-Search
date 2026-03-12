@@ -2,7 +2,7 @@ import torch
 import faiss
 import pickle
 import numpy as np
-from step3_model import SequentialTwoTower # Import the architecture
+from model_arch import SequentialTwoTower # Import the architecture
 
 # 1. Load the Item Mapper to get the correct item count
 print("📂 Loading item mapper...")
